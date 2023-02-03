@@ -25,3 +25,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_MATRIX_LED_FLUSH_LIMIT 10
 
 // #define RGB_DISABLE_WHEN_USB_SUSPENDED // turn off effects when suspended
+
+// double tap lshift to turn on caps word mode.
+#define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
