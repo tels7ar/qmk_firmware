@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 #define MODS_SHIFT  (get_mods() & MOD_BIT(KC_LSFT) || get_mods() & MOD_BIT(KC_RSFT))
 #define MODS_CTRL  (get_mods() & MOD_BIT(KC_LCTL) || get_mods() & MOD_BIT(KC_RCTL))
 #define MODS_ALT  (get_mods() & MOD_BIT(KC_LALT) || get_mods() & MOD_BIT(KC_RALT))
-#define IDLE_TIMER_DURATION 600000 //how many milliseconds before RGB turns off
+#define IDLE_TIMER_DURATION 1200000 //how many milliseconds before RGB turns off
 
 static uint32_t idle_timer; //custom timer to check if keyboard is idled.
 bool rgbkeyIdle = false; //flag for keyboard idling, nil keys for set
